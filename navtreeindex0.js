@@ -1,7 +1,6 @@
 var NAVTREEINDEX0 =
 {
 "SK9822_8h_source.html":[3,0,0,2],
-"\ref README.md":[0],
 "adc0_8h_source.html":[3,0,0,1,0,1,1],
 "adc1_8h_source.html":[3,0,0,1,0,1,2],
 "adc_8h_source.html":[3,0,0,1,0,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "dir_fbd10f01ec0b0d2d653da3d51b4d6e68.html":[3,0,0,0,0,0,4],
 "files.html":[3,0],
 "functions.html":[2,2,0,0],
-"functions.html":[2,2,0]
+"functions.html":[2,2,0],
+"functions_a.html":[2,2,0,1]
 };

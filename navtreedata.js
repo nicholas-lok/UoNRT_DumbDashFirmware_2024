@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "UoN RT Dumb Dashboard Firmware", "index.html", [
-    [ "Overview", "\ref README.md", null ],
+    [ "Overview", "md_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -49,8 +49,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "SK9822_8h_source.html",
-"functions_a.html",
-"group__CMSIS__Core__InstructionInterface.html#gaf32ee2525f946bce31504904f3ef8243",
+"functions_b.html",
+"group__CMSIS__Core__InstructionInterface.html#gaf944a7b7d8fd70164cca27669316bcf7",
 "group__CMSIS__Core__SysTickFunctions.html#ga9976ebb49caa4da93e1dad137071b9ee",
 "group__CMSIS__core__base.html#gad55a7ddb8d4b2398b0c1cfec76c0d9fd",
 "structac__registers__t.html#a82ef04c98e6cce01382b1bec939a043f",
