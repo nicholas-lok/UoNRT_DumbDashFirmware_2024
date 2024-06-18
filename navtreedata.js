@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "UoN RT Dumb Dashboard Firmware", "index.html", [
-    [ "UoN RT Dumb Dashboard Firmware", "md_README.html", null ],
-    [ "MISRA-C:2004 Compliance Exceptions", "CMSIS_MISRA_Exceptions.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
+    [ "Overview", "\ref README.md", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -50,14 +48,14 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CMSIS_MISRA_Exceptions.html",
-"functions.html",
+"SK9822_8h_source.html",
+"functions_a.html",
 "group__CMSIS__Core__InstructionInterface.html#gaf32ee2525f946bce31504904f3ef8243",
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16",
-"group__CMSIS__core__base.html#gacd96c53beeaff8f603fcda425eb295de",
-"structac__registers__t.html#a6dc9eee543b922f2f0a75373f561a75f",
-"structfuses__user__fuses__registers__t.html#a11305612f9b33dd26a4bee3f88295fd2",
-"structsercom__i2cm__registers__t.html#adf312545d7f9e9230fba200d10ad470d"
+"group__CMSIS__Core__SysTickFunctions.html#ga9976ebb49caa4da93e1dad137071b9ee",
+"group__CMSIS__core__base.html#gad55a7ddb8d4b2398b0c1cfec76c0d9fd",
+"structac__registers__t.html#a82ef04c98e6cce01382b1bec939a043f",
+"structgclk__registers__t.html",
+"structsercom__i2cm__registers__t.html#afb24e870f4edb0f5a505005129ae11dd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
