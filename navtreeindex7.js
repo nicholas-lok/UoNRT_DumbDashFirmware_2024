@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"structsercom__i2cm__registers__t.html#a3eba5652b4e661d4609eb08d332a896f":[2,0,64,10],
+"structsercom__i2cm__registers__t.html#a81f4ab30adc1b2569de135caef55cdb4":[2,0,64,1],
+"structsercom__i2cm__registers__t.html#a9f0be6e0660e4a8405cd4bda5f2d888f":[2,0,64,8],
+"structsercom__i2cm__registers__t.html#abb4c0bcae38bb77aacb49b0adadfe137":[2,0,64,6],
+"structsercom__i2cm__registers__t.html#abb747f192b62c5f88502ef171b502729":[2,0,64,5],
+"structsercom__i2cm__registers__t.html#abc544ca5b83e720f7406fa72c4233100":[2,0,64,13],
+"structsercom__i2cm__registers__t.html#ac9b9ffacf7cf0a84fb681484207e9e3d":[2,0,64,16],
+"structsercom__i2cm__registers__t.html#ad03b85be049b97f1d885a4a5767fa77a":[2,0,64,14],
+"structsercom__i2cm__registers__t.html#adf0e0194de65280b276f9488b0d7b0ab":[2,0,64,4],
+"structsercom__i2cm__registers__t.html#adf312545d7f9e9230fba200d10ad470d":[2,0,64,11],
+"structsercom__i2cm__registers__t.html#ae9072d06ad427c9fcab3089ea637fa1c":[2,0,64,0],
 "structsercom__i2cm__registers__t.html#afb24e870f4edb0f5a505005129ae11dd":[2,0,64,12],
 "structsercom__i2cs__registers__t.html":[2,0,65],
 "structsercom__i2cs__registers__t.html#a0a81cee2be5a055404d683a12b4ebdf6":[2,0,65,2],
@@ -238,13 +249,5 @@ var NAVTREEINDEX7 =
 "unionsercom__registers__t.html":[2,0,66],
 "unionsercom__registers__t.html#a4bddc88990ae6e745614ec3fabd9b376":[2,0,66,1],
 "unionsercom__registers__t.html#a7ccbbe59cde0f9c87ce3e653f1e5d275":[2,0,66,3],
-"unionsercom__registers__t.html#aa055c076eea4deac14c5d773b521c8cd":[2,0,66,5],
-"unionsercom__registers__t.html#ac05807e946448bd74da294e013b96d98":[2,0,66,4],
-"unionsercom__registers__t.html#ac739dac90dac137b64a921e4572cb7af":[2,0,66,2],
-"unionsercom__registers__t.html#ad83a76a0e270060d8c37925385142fde":[2,0,66,0],
-"uniontc__registers__t.html":[2,0,76],
-"uniontc__registers__t.html#a4a9d26c1c0e06ab3ce437d4aa18a25c2":[2,0,76,2],
-"uniontc__registers__t.html#a758ab0382a59c51fe3a5fa902cb6f031":[2,0,76,0],
-"uniontc__registers__t.html#a86a632c9717ee8cdd85e61396b406484":[2,0,76,1],
-"unionxPSR__Type.html":[1,2,0,3]
+"unionsercom__registers__t.html#aa055c076eea4deac14c5d773b521c8cd":[2,0,66,5]
 };

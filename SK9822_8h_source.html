@@ -97,68 +97,68 @@ $(document).ready(function(){initNavTree('SK9822_8h_source.html',''); initResiza
 <div class="title">SK9822.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*******************************************************************************</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * @file      SK9822.h</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * @company   University of Nottingham Racing Team</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * @author    Nicholas Lok</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * </span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * @brief     This file contains the &quot;main&quot; function for a project.</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * @date      17. June 2024</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef SK9822_H    </span><span class="comment">/* Guard against multiple inclusion */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define SK9822_H</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">/*******************************************************************************</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * Section: Included Files                                                    </span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;../src/config/default/peripheral/port/plib_port.h&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">/* Provide C++ Compatibility */</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">/*******************************************************************************</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * Section: Data Types</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structrgb__colour.html">   28</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structrgb__colour.html">rgb_colour</a> {</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="structrgb__colour.html#ad47d918910aaa51c73160ac85999d09c">   30</a></span>&#160;  uint8_t <a class="code" href="structrgb__colour.html#ad47d918910aaa51c73160ac85999d09c">red</a>, green, blue;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;} <a class="code" href="structrgb__colour.html">rgb_colour</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">/*******************************************************************************</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"> * Section: Interface Functions</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<a class="code" href="structrgb__colour.html">rgb_colour</a> hsvToRgb( uint16_t h, uint8_t s, uint8_t v );</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> SK9822_Clear();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> SK9822_Write( <a class="code" href="structrgb__colour.html">rgb_colour</a> *colours, uint16_t numOfLEDs, uint8_t brightness );</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> _SK9822_StartFrame();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> _SK9822_ColourFrames( uint8_t red, uint8_t green, uint8_t blue, </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                           uint8_t brightness );</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> _SK9822_EndFrame( uint16_t numOfLEDs );</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keywordtype">void</span> __SK9822_ClearPins();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> __SK9822_WritePins( uint8_t <span class="keywordtype">byte</span> );</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">/* Provide C++ Compatibility */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="SK9822_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/**************************************************************************/</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef SK9822_H    </span><span class="comment">/* Guard against multiple inclusion */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define SK9822_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">/*******************************************************************************</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * Section: Included Files                                                    </span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;../src/config/default/peripheral/port/plib_port.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">/* Provide C++ Compatibility */</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">/*******************************************************************************</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * Section: Data Types</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structrgb__colour.html">   26</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structrgb__colour.html">rgb_colour</a> {</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structrgb__colour.html#ad47d918910aaa51c73160ac85999d09c">   28</a></span>&#160;  uint8_t <a class="code" href="structrgb__colour.html#ad47d918910aaa51c73160ac85999d09c">red</a>, green, blue;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} <a class="code" href="structrgb__colour.html">rgb_colour</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">/*******************************************************************************</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * Section: Interface Functions</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<a class="code" href="structrgb__colour.html">rgb_colour</a> <a class="code" href="SK9822_8h.html#aa0d0a7625cad75b9e94b3331e9b71cf8">hsvToRgb</a>( uint16_t h, uint8_t s, uint8_t v );</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="SK9822_8h.html#ad1389a00ffbb4de37ab91ec2b0e3052d">SK9822_Clear</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> <a class="code" href="SK9822_8h.html#a542a7f1ad2073f131f49997cdf3606c7">SK9822_Write</a>( <a class="code" href="structrgb__colour.html">rgb_colour</a> *colours, uint16_t numOfLEDs, uint8_t brightness );</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">void</span> <a class="code" href="SK9822_8h.html#a414e09453044f113f24e3b5964393d80">_SK9822_StartFrame</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">void</span> <a class="code" href="SK9822_8h.html#a4584b549c94aa5b77e3573cab2e79d15">_SK9822_ColourFrames</a>( uint8_t red, uint8_t green, uint8_t blue, </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                           uint8_t brightness );</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> <a class="code" href="SK9822_8h.html#aeffeacd541f33abf9d2ab40340ddc9de">_SK9822_EndFrame</a>( uint16_t numOfLEDs );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">void</span> <a class="code" href="SK9822_8h.html#a8c04adb78889264a6d33816556b01a85">__SK9822_ClearPins</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">void</span> __SK9822_WritePins( uint8_t <span class="keywordtype">byte</span> );</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">/* Provide C++ Compatibility */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SK9822_H */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SK9822_H */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/* *****************************************************************************</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment"> End of File</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment"> */</span></div>
-<div class="ttc" id="astructrgb__colour_html"><div class="ttname"><a href="structrgb__colour.html">rgb_colour</a></div><div class="ttdef"><b>Definition:</b> SK9822.h:28</div></div>
-<div class="ttc" id="astructrgb__colour_html_ad47d918910aaa51c73160ac85999d09c"><div class="ttname"><a href="structrgb__colour.html#ad47d918910aaa51c73160ac85999d09c">rgb_colour::red</a></div><div class="ttdeci">uint8_t red</div><div class="ttdef"><b>Definition:</b> SK9822.h:30</div></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* *****************************************************************************</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment"> End of File</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment"> */</span></div>
+<div class="ttc" id="aSK9822_8h_html_a414e09453044f113f24e3b5964393d80"><div class="ttname"><a href="SK9822_8h.html#a414e09453044f113f24e3b5964393d80">_SK9822_StartFrame</a></div><div class="ttdeci">void _SK9822_StartFrame()</div><div class="ttdef"><b>Definition:</b> SK9822.c:91</div></div>
+<div class="ttc" id="aSK9822_8h_html_a4584b549c94aa5b77e3573cab2e79d15"><div class="ttname"><a href="SK9822_8h.html#a4584b549c94aa5b77e3573cab2e79d15">_SK9822_ColourFrames</a></div><div class="ttdeci">void _SK9822_ColourFrames(uint8_t red, uint8_t green, uint8_t blue, uint8_t brightness)</div><div class="ttdef"><b>Definition:</b> SK9822.c:102</div></div>
+<div class="ttc" id="aSK9822_8h_html_a542a7f1ad2073f131f49997cdf3606c7"><div class="ttname"><a href="SK9822_8h.html#a542a7f1ad2073f131f49997cdf3606c7">SK9822_Write</a></div><div class="ttdeci">void SK9822_Write(rgb_colour *colours, uint16_t numOfLEDs, uint8_t brightness)</div><div class="ttdef"><b>Definition:</b> SK9822.c:67</div></div>
+<div class="ttc" id="aSK9822_8h_html_a8c04adb78889264a6d33816556b01a85"><div class="ttname"><a href="SK9822_8h.html#a8c04adb78889264a6d33816556b01a85">__SK9822_ClearPins</a></div><div class="ttdeci">void __SK9822_ClearPins()</div><div class="ttdef"><b>Definition:</b> SK9822.c:147</div></div>
+<div class="ttc" id="aSK9822_8h_html_aa0d0a7625cad75b9e94b3331e9b71cf8"><div class="ttname"><a href="SK9822_8h.html#aa0d0a7625cad75b9e94b3331e9b71cf8">hsvToRgb</a></div><div class="ttdeci">rgb_colour hsvToRgb(uint16_t h, uint8_t s, uint8_t v)</div><div class="ttdef"><b>Definition:</b> SK9822.c:22</div></div>
+<div class="ttc" id="aSK9822_8h_html_ad1389a00ffbb4de37ab91ec2b0e3052d"><div class="ttname"><a href="SK9822_8h.html#ad1389a00ffbb4de37ab91ec2b0e3052d">SK9822_Clear</a></div><div class="ttdeci">void SK9822_Clear()</div><div class="ttdef"><b>Definition:</b> SK9822.c:48</div></div>
+<div class="ttc" id="aSK9822_8h_html_aeffeacd541f33abf9d2ab40340ddc9de"><div class="ttname"><a href="SK9822_8h.html#aeffeacd541f33abf9d2ab40340ddc9de">_SK9822_EndFrame</a></div><div class="ttdeci">void _SK9822_EndFrame(uint16_t numOfLEDs)</div><div class="ttdef"><b>Definition:</b> SK9822.c:116</div></div>
+<div class="ttc" id="astructrgb__colour_html"><div class="ttname"><a href="structrgb__colour.html">rgb_colour</a></div><div class="ttdef"><b>Definition:</b> SK9822.h:26</div></div>
+<div class="ttc" id="astructrgb__colour_html_ad47d918910aaa51c73160ac85999d09c"><div class="ttname"><a href="structrgb__colour.html#ad47d918910aaa51c73160ac85999d09c">rgb_colour::red</a></div><div class="ttdeci">uint8_t red</div><div class="ttdef"><b>Definition:</b> SK9822.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><b>SK9822.h</b></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="SK9822_8h.html">SK9822.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

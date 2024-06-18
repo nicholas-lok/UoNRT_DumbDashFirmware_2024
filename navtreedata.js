@@ -48,14 +48,15 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"SK9822_8h_source.html",
-"functions_b.html",
-"group__CMSIS__Core__InstructionInterface.html#gaf944a7b7d8fd70164cca27669316bcf7",
-"group__CMSIS__Core__SysTickFunctions.html#ga9976ebb49caa4da93e1dad137071b9ee",
-"group__CMSIS__core__base.html#gad55a7ddb8d4b2398b0c1cfec76c0d9fd",
-"structac__registers__t.html#a82ef04c98e6cce01382b1bec939a043f",
-"structgclk__registers__t.html",
-"structsercom__i2cm__registers__t.html#afb24e870f4edb0f5a505005129ae11dd"
+"SK9822_8h.html",
+"dir_c7c7e189d0e9feed5440079bd6a26174.html",
+"group__CMSIS__Core__InstructionInterface.html#gae580812686119c9c5cf3c11a7519a404",
+"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16",
+"group__CMSIS__core__base.html#ga58effaac0b93006b756d33209e814646",
+"struct__DeviceVectors.html#afcd865c61ec67ef7de9f7eb57fc4c480",
+"structfreqm__registers__t.html#ad8e6b2022cb3b76a2ce355fa503bc477",
+"structsercom__i2cm__registers__t.html#a3eba5652b4e661d4609eb08d332a896f",
+"unionsercom__registers__t.html#ac05807e946448bd74da294e013b96d98"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

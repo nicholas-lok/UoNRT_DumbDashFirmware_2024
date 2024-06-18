@@ -1,5 +1,16 @@
 var NAVTREEINDEX2 =
 {
+"group__CMSIS__Core__InstructionInterface.html#gae580812686119c9c5cf3c11a7519a404":[3,0,0,1,1,0,0,0,3,22],
+"group__CMSIS__Core__InstructionInterface.html#gae580812686119c9c5cf3c11a7519a404":[1,0,26],
+"group__CMSIS__Core__InstructionInterface.html#gae580812686119c9c5cf3c11a7519a404":[1,0,27],
+"group__CMSIS__Core__InstructionInterface.html#gae84a2733711339c5eefeb0d899506b96":[1,0,42],
+"group__CMSIS__Core__InstructionInterface.html#gae84a2733711339c5eefeb0d899506b96":[3,0,0,1,1,0,0,0,1,35],
+"group__CMSIS__Core__InstructionInterface.html#gaf0330712223f4cfb6091e4ab84775f73":[1,0,36],
+"group__CMSIS__Core__InstructionInterface.html#gaf0330712223f4cfb6091e4ab84775f73":[3,0,0,1,1,0,0,0,5,30],
+"group__CMSIS__Core__InstructionInterface.html#gaf32ee2525f946bce31504904f3ef8243":[1,0,44],
+"group__CMSIS__Core__InstructionInterface.html#gaf32ee2525f946bce31504904f3ef8243":[3,0,0,1,1,0,0,0,2,41],
+"group__CMSIS__Core__InstructionInterface.html#gaf32ee2525f946bce31504904f3ef8243":[3,0,0,1,1,0,0,0,3,40],
+"group__CMSIS__Core__InstructionInterface.html#gaf32ee2525f946bce31504904f3ef8243":[3,0,0,1,1,0,0,0,5,33],
 "group__CMSIS__Core__InstructionInterface.html#gaf944a7b7d8fd70164cca27669316bcf7":[1,0,48],
 "group__CMSIS__Core__InstructionInterface.html#gaf944a7b7d8fd70164cca27669316bcf7":[3,0,0,1,1,0,0,0,5,48],
 "group__CMSIS__Core__InstructionInterface.html#gafa58e60fcd2176ad58f96947466ea1fa":[3,0,0,1,1,0,0,0,5,17],
@@ -238,16 +249,5 @@ var NAVTREEINDEX2 =
 "group__CMSIS__Core__SysTickFunctions.html#ga84de5f534817cdbf8bd9064080effca2":[1,2,0,0,0,0,0,0,0,0,2,0,0,11],
 "group__CMSIS__Core__SysTickFunctions.html#ga84de5f534817cdbf8bd9064080effca2":[1,2,0,1,1],
 "group__CMSIS__Core__SysTickFunctions.html#ga84de5f534817cdbf8bd9064080effca2":[1,2,0,0,0,0,0,0,0,1,0,0,11],
-"group__CMSIS__Core__SysTickFunctions.html#ga912eeccb87076693e39c4d8478f0ca1e":[1,2,0,0,1,9],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,0,2,0,0,6],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,0,2,0,0,7],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,0,2,0,0,8],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,0,2,0,0,9],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,1,0,0,6],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,1,0,0,7],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,1,0,0,8],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,3,1],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,4,0],
-"group__CMSIS__Core__SysTickFunctions.html#ga959a73d8faee56599b7e792a7c5a2d16":[1,2,0,0,0,0,0,0,0,1,0,0,9],
-"group__CMSIS__Core__SysTickFunctions.html#ga9976ebb49caa4da93e1dad137071b9ee":[1,2,0,0,0,1,8]
+"group__CMSIS__Core__SysTickFunctions.html#ga912eeccb87076693e39c4d8478f0ca1e":[1,2,0,0,1,9]
 };

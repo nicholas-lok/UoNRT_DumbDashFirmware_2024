@@ -1,5 +1,16 @@
 var NAVTREEINDEX6 =
 {
+"structfreqm__registers__t.html#ad8e6b2022cb3b76a2ce355fa503bc477":[2,0,37,7],
+"structfreqm__registers__t.html#addeada18696079ac8c3b64c16867dc6c":[2,0,37,0],
+"structfreqm__registers__t.html#ae9072d06ad427c9fcab3089ea637fa1c":[2,0,37,9],
+"structfuses__otp5__fuses__registers__t.html":[2,0,38],
+"structfuses__otp5__fuses__registers__t.html#ae1560710314c72d18e36ab264928e502":[2,0,38,0],
+"structfuses__temp__log__fuses__registers__t.html":[2,0,39],
+"structfuses__temp__log__fuses__registers__t.html#a118043c8b811eca9239a37fbb9f38877":[2,0,39,0],
+"structfuses__temp__log__fuses__registers__t.html#a3d4999e1115cf45c18355cada1fedecd":[2,0,39,1],
+"structfuses__user__fuses__registers__t.html":[2,0,40],
+"structfuses__user__fuses__registers__t.html#a11305612f9b33dd26a4bee3f88295fd2":[2,0,40,0],
+"structfuses__user__fuses__registers__t.html#ae566a4ceb64abb21fde06f87e3bff0d8":[2,0,40,1],
 "structgclk__registers__t.html":[2,0,41],
 "structgclk__registers__t.html#a148c2b5032fd52e8f4e70f2f7ad374fe":[2,0,41,3],
 "structgclk__registers__t.html#a1bdef345af4ba4507938f4431c6bafd1":[2,0,41,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "structsercom__i2cm__registers__t.html#a0c2e8e6476a00fa8e4913f2a0132ce39":[2,0,64,9],
 "structsercom__i2cm__registers__t.html#a21250c57633675b396940178fdd9998e":[2,0,64,3],
 "structsercom__i2cm__registers__t.html#a38be0a133ac9de38eb2e7dfd8a2ed121":[2,0,64,7],
-"structsercom__i2cm__registers__t.html#a3d60b7e7ba214cd2314f5c1eac6fbaaf":[2,0,64,17],
-"structsercom__i2cm__registers__t.html#a3eba5652b4e661d4609eb08d332a896f":[2,0,64,10],
-"structsercom__i2cm__registers__t.html#a81f4ab30adc1b2569de135caef55cdb4":[2,0,64,1],
-"structsercom__i2cm__registers__t.html#a9f0be6e0660e4a8405cd4bda5f2d888f":[2,0,64,8],
-"structsercom__i2cm__registers__t.html#abb4c0bcae38bb77aacb49b0adadfe137":[2,0,64,6],
-"structsercom__i2cm__registers__t.html#abb747f192b62c5f88502ef171b502729":[2,0,64,5],
-"structsercom__i2cm__registers__t.html#abc544ca5b83e720f7406fa72c4233100":[2,0,64,13],
-"structsercom__i2cm__registers__t.html#ac9b9ffacf7cf0a84fb681484207e9e3d":[2,0,64,16],
-"structsercom__i2cm__registers__t.html#ad03b85be049b97f1d885a4a5767fa77a":[2,0,64,14],
-"structsercom__i2cm__registers__t.html#adf0e0194de65280b276f9488b0d7b0ab":[2,0,64,4],
-"structsercom__i2cm__registers__t.html#adf312545d7f9e9230fba200d10ad470d":[2,0,64,11],
-"structsercom__i2cm__registers__t.html#ae9072d06ad427c9fcab3089ea637fa1c":[2,0,64,0]
+"structsercom__i2cm__registers__t.html#a3d60b7e7ba214cd2314f5c1eac6fbaaf":[2,0,64,17]
 };

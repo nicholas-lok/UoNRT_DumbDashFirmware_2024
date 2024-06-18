@@ -1,5 +1,16 @@
 var NAVTREEINDEX5 =
 {
+"struct__DeviceVectors.html#afcd865c61ec67ef7de9f7eb57fc4c480":[2,0,1,35],
+"struct____iar__u32.html":[2,0,0],
+"struct____iar__u32.html#a9e0a00edabf3b8a5dafff624fff7bbfc":[2,0,0,0],
+"structac__registers__t.html":[2,0,2],
+"structac__registers__t.html#a2397a3c125372fd33ff304ac9d44c02d":[2,0,2,2],
+"structac__registers__t.html#a3996bdb9830d272760cb03627c0568bb":[2,0,2,12],
+"structac__registers__t.html#a3a89cf95500322a25af0bd5c63e18c66":[2,0,2,10],
+"structac__registers__t.html#a48df884ef6e08165554923f98a9b3262":[2,0,2,4],
+"structac__registers__t.html#a54239f9242e353d1a88201cb6930291e":[2,0,2,0],
+"structac__registers__t.html#a6dc9eee543b922f2f0a75373f561a75f":[2,0,2,7],
+"structac__registers__t.html#a7c4cd05dfb17c9975ed667d79987766e":[2,0,2,9],
 "structac__registers__t.html#a82ef04c98e6cce01382b1bec939a043f":[2,0,2,1],
 "structac__registers__t.html#a857d61abe9f91ac3680401a0b2a6d0b8":[2,0,2,8],
 "structac__registers__t.html#a86c2fb6995b15f081099e24f689ea009":[2,0,2,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX5 =
 "structfreqm__registers__t.html#a34fbe35f147805dc8be13d05501a684f":[2,0,37,6],
 "structfreqm__registers__t.html#a5784c65366e02d199c80c26a77feb0e2":[2,0,37,4],
 "structfreqm__registers__t.html#a87feb15d041781434d6b2e16e059aea2":[2,0,37,1],
-"structfreqm__registers__t.html#ad42b2120319a2d3ab7f8aaf205d15c03":[2,0,37,3],
-"structfreqm__registers__t.html#ad8e6b2022cb3b76a2ce355fa503bc477":[2,0,37,7],
-"structfreqm__registers__t.html#addeada18696079ac8c3b64c16867dc6c":[2,0,37,0],
-"structfreqm__registers__t.html#ae9072d06ad427c9fcab3089ea637fa1c":[2,0,37,9],
-"structfuses__otp5__fuses__registers__t.html":[2,0,38],
-"structfuses__otp5__fuses__registers__t.html#ae1560710314c72d18e36ab264928e502":[2,0,38,0],
-"structfuses__temp__log__fuses__registers__t.html":[2,0,39],
-"structfuses__temp__log__fuses__registers__t.html#a118043c8b811eca9239a37fbb9f38877":[2,0,39,0],
-"structfuses__temp__log__fuses__registers__t.html#a3d4999e1115cf45c18355cada1fedecd":[2,0,39,1],
-"structfuses__user__fuses__registers__t.html":[2,0,40],
-"structfuses__user__fuses__registers__t.html#a11305612f9b33dd26a4bee3f88295fd2":[2,0,40,0],
-"structfuses__user__fuses__registers__t.html#ae566a4ceb64abb21fde06f87e3bff0d8":[2,0,40,1]
+"structfreqm__registers__t.html#ad42b2120319a2d3ab7f8aaf205d15c03":[2,0,37,3]
 };
