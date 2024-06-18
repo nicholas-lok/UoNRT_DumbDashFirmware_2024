@@ -1,10 +1,8 @@
-/*******************************************************************************
- * @File:   SK9822.h
- * @Company: University of Nottingham Racing Team
- * @Author: Nicholas Lok
- * 
- * @Summary: This file contains the "main" function for a project.
- * @Date: June 17, 2024, 12:54 AM
+/**************************************************************************//**
+ * @file      SK9822.h
+ * @brief     This file contains the "main" function for a project.
+ * @author    Nicholas Lok
+ * @date      17. June 2024
  ******************************************************************************/
 #ifndef SK9822_H    /* Guard against multiple inclusion */
 #define SK9822_H

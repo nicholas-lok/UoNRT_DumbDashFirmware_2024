@@ -1,0 +1,3 @@
+# User-specific files
+docs/html/*
+!docs/html/.nojekyll
